@@ -1,5 +1,5 @@
 
-Code book for HumanActivitySummary data set.
+Code book for HumanActivitySummary data set
 ==========
 
 For all the sensor data variables 

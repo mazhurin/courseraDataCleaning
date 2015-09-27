@@ -3,11 +3,17 @@ Code book for HumanActivitySummary data set.
 
 ==========
 
+## For all the sensor data variables 
+* '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+* The values are normalized and bounded within [-1,1]
+* 'Mean' is used to denote mean values
+* 'Std' is used to denote standard deviation values
+
 ## Subject  
 ID of the volunteer.   
 
 ## Activity
-The perfomed activity  
+The perfomed activity as string value from the list: 
  * WALKING
  * WALKING_UPSTAIRS
  * WALKING_DOWNSTAIRS

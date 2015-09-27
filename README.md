@@ -15,26 +15,15 @@ Course project assignment for "Getting and Cleaning Data" course on www.Coursera
 
 ## Example of usage
 
-1. Open R, and load the run the script:
- 
+Open R, and load the run the script.  
+A dataframe HumanActivitySummary will be created.  
+The dataframe will be stored in HumanActivitySummary.txt.
+
 > source("./run_analysis.R")  
+> dim(HumanActivitySummary)
+[1] 180  81
 
-2. A dataframe HumanActivitySummary will be created
-
-> HumanActivitySummary[1:5, 1:4]  
-Source: local data frame [5 x 4]  
-Groups: Activity [1]  
-  
-  Activity Subject tBodyAcc-mean()-X tBodyAcc-mean()-Y  
-     (chr)   (int)             (dbl)             (dbl)  
-1   LAYING       1         0.2215982       -0.04051395  
-2   LAYING       2         0.2813734       -0.01815874  
-3   LAYING       3         0.2755169       -0.01895568  
-4   LAYING       4         0.2635592       -0.01500318  
-5   LAYING       5         0.2783343       -0.01830421  
-
-
-3. The dataframe will be stored in HumanActivitySummary.txt
+HumanActivitySummary now contains the average values of 79 measured variables for 30 volunteers for 6 activities.
 
 
 ## Description

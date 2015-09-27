@@ -10,8 +10,8 @@ Course project assignment for "Getting and Cleaning Data" course on www.Coursera
 
 * Get the data archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-* Unzip the data archive into the current folder. You should have the folder named "UCI HAR Dataset" in the current folder.
-
+* Unzip the data archive into the current folder.  
+You should have the folder named "UCI HAR Dataset" in the current folder.
 
 ## Example of usage
 
@@ -47,8 +47,7 @@ The programm does the following processing:
  4. Appropriately labels the data set with descriptive variable names. 
  5. Creates a tidy data set with the average of each variable for each activity and each subject.
 
-
-
+The codebook for the resulting data set is in HumanActivitySummary.md
 
 
 

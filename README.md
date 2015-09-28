@@ -7,9 +7,8 @@ Course project assignment for "Getting and Cleaning Data" course on www.Coursera
 ## Installation
 
 * Install R 
-
+* Install dplyr package
 * Get the data archive from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-
 * Unzip the data archive into the current folder.  
 You should have the folder named "UCI HAR Dataset" in the current folder.
 
